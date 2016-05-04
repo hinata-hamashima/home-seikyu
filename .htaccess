@@ -1,0 +1,5 @@
+AuthUserFile /home/users/0/mods.jp-hinata/web/home-seikyu/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Please type of ID & PASS"
+AuthType Basic
+require valid-user
