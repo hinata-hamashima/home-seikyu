@@ -137,7 +137,7 @@ class SC_Fpdf_Ex extends SC_Fpdf
         // メッセージ
         $this->lfText(22, 89, $this->arrData['msg1'], 15);  //メッセージ1
         $this->lfText(27, 92, $this->arrData['msg2'], 8);  //メッセージ2
-        $this->lfText(27, 95, $this->arrData['msg3'], 8);  //メッセージ3
+        $this->lfText(27, 95, $this->arrData['msg3'], 15);  //メッセージ3
         $text = '作成日: '.$this->arrData['year'].'年'.$this->arrData['month'].'月'.$this->arrData['day'].'日';
         $this->lfText(158, 288, $text, 8);  //作成日
     }
